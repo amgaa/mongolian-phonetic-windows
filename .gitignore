@@ -1,0 +1,23 @@
+## .NET build artifacts
+bin/
+obj/
+publish/
+installer/
+
+## Visual Studio
+.vs/
+*.user
+*.suo
+
+## Rider
+.idea/
+
+## Build results
+*.exe
+*.dll
+*.pdb
+!installer/*.exe
+
+## OS files
+.DS_Store
+Thumbs.db

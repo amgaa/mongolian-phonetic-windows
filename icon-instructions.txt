@@ -1,0 +1,38 @@
+ICON FILE INSTRUCTIONS
+======================
+
+The application will generate a basic icon at runtime, but for a better-looking
+installer and application icon, you should create an icon file.
+
+To create icon.ico:
+
+Option 1: Use an online converter
+----------------------------------
+1. Create a 256x256 PNG image with your desired icon design
+2. Use an online ICO converter like:
+   - https://www.icoconverter.com/
+   - https://convertio.co/png-ico/
+3. Save the result as "icon.ico" in this directory
+
+Option 2: Use GIMP (Free)
+--------------------------
+1. Create your icon design at 256x256 pixels
+2. Go to File → Export As
+3. Save as "icon.ico"
+4. Select all the sizes you want to include (16, 32, 48, 256)
+
+Option 3: Use professional icon editor
+---------------------------------------
+- IcoFX (Windows) - https://icofx.ro/
+- Axialis IconWorkshop (Windows) - https://www.axialis.com/
+- IconFly (macOS) - https://www.iconfactory.com/
+
+Recommended icon design:
+- Show Mongolian script (ᠮᠣᠩᠭᠣᠯ) or Cyrillic "Мон"
+- Use blue/red/yellow colors (Mongolian flag colors)
+- Keep it simple and recognizable at small sizes
+
+Once you have icon.ico, the build process will automatically include it in:
+- The executable (visible in Task Manager, File Explorer, etc.)
+- The installer
+- The system tray (though the app generates its own tray icon at runtime)

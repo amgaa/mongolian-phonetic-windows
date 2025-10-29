@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <AssemblyName>MongolianPhonetic</AssemblyName>
+    <Product>Mongolian Phonetic Keyboard</Product>
+    <Version>1.0.0</Version>
+    <Authors>Amgaa G.</Authors>
+    <Description>Mongolian Phonetic Keyboard Layout for Windows</Description>
+    <Copyright>Copyright © 2024 Amgaa G.</Copyright>
+    <Company>Amgaa G.</Company>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <PublishSingleFile>true</PublishSingleFile>
+    <SelfContained>true</SelfContained>
+    <PublishReadyToRun>true</PublishReadyToRun>
+  </PropertyGroup>
+
+</Project>

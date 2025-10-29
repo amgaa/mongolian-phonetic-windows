@@ -1,0 +1,15 @@
+The keyboard hook has been fixed. The issue was that SendInput was being called
+from inside the keyboard hook callback, which caused synchronization issues.
+
+Changes made:
+1. Added async text sending using Task.Run()
+2. Added _isSending flag to prevent processing our own injected keys
+3. Added small delays between operations for reliability
+
+Please rebuild the application:
+1. Close the running application
+2. Run: .\build.ps1
+3. Start the new executable: .\publish\MongolianPhonetic.exe
+4. Test typing in Notepad
+
+If characters still don't appear, try running as Administrator.
